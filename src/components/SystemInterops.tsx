@@ -11,7 +11,7 @@ export default function SystemInterops({ onAddLog }: SystemInteropsProps) {
     onAddLog(
       sysName,
       'success',
-      `Manual sync completed successfully with ${sysName} core databases. Staging frameworks updated.`
+      `Manual sync handshake completed successfully with ${sysName} core databases. Staging frameworks updated.`
     );
   };
 
