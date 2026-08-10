@@ -326,7 +326,7 @@ export default function App() {
               SANS MERCANTILE LOGISTICAL NETWORK
             </span>
             <h2 className="text-2xl font-display font-medium tracking-wide text-white">HAPI Operations Control</h2>
-            <p className="text-sm text-slate-350 leading-relaxed font-sans">
+            <p className="text-sm text-slate-400 leading-relaxed font-sans">
               Autonomous distribution, demand forecasting, and logistics coordination across infrastructure systems. 
               HAPI enables intelligent transport planning, real-time asset tracking, and adaptive supply routing for critical resources and operational support. 
               It connects material delivery to <strong className="text-teal-400 font-semibold font-mono">PTah</strong> infrastructure projects, mining logistics for <strong className="text-teal-400 font-semibold font-mono">Hathor</strong>, pure heavy water services for <strong className="text-teal-400 font-semibold font-mono">MAMI_WATA</strong>, and climate-sensitive shipments managed by <strong className="text-teal-400 font-semibold font-mono">SHANGO</strong>.

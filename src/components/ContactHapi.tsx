@@ -60,7 +60,7 @@ export default function ContactHapi({ isOpen, onClose, onSubmitLog }: ContactHap
             onClick={onClose}
             className="text-slate-500 hover:text-slate-300 transition-colors"
           >
-            <X className="w-4.5 h-4.5" />
+            <X className="w-4 h-4" />
           </button>
         </div>
 

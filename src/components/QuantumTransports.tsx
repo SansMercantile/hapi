@@ -284,7 +284,7 @@ export default function QuantumTransports({ onAddLog }: QuantumTransportsProps) 
           {/* Subheader and Registration trigger */}
           <div className="flex items-center justify-between">
             {/* View tabs */}
-            <div className="flex gap-1 bg-[#050608] p-1 rounded-lg border border-slate-801/80">
+            <div className="flex gap-1 bg-[#050608] p-1 rounded-lg border border-slate-800/80">
               <button
                 onClick={() => setActiveTab('personal')}
                 className={`px-3 py-1.5 text-3xs font-mono rounded-md font-semibold tracking-wider uppercase transition-all flex items-center gap-1.5 ${
@@ -447,7 +447,7 @@ export default function QuantumTransports({ onAddLog }: QuantumTransportsProps) 
                         className={`text-[9px] font-mono px-2 py-0.5 rounded transition ${
                           vehicle.neuralSyncStatus
                             ? 'bg-teal-900/40 text-teal-300 border border-teal-500/25'
-                            : 'bg-slate-800 text-slate-500 hover:text-slate-350'
+                            : 'bg-slate-800 text-slate-500 hover:text-slate-400'
                         }`}
                       >
                         {vehicle.neuralSyncStatus ? 'HIVE_SYNC_ONLINE' : 'BYPASS'}
@@ -464,7 +464,7 @@ export default function QuantumTransports({ onAddLog }: QuantumTransportsProps) 
                         className={`text-[9px] font-mono px-2 py-0.5 rounded transition ${
                           vehicle.stabilizerActive
                             ? 'bg-sky-950/40 text-sky-300 border border-sky-500/20'
-                            : 'bg-slate-800 text-slate-500 hover:text-slate-350'
+                            : 'bg-slate-800 text-slate-500 hover:text-slate-400'
                         }`}
                       >
                         {vehicle.stabilizerActive ? 'GRAV_LOCK_ACTIVE' : 'DAMPENED'}
@@ -489,7 +489,7 @@ export default function QuantumTransports({ onAddLog }: QuantumTransportsProps) 
           <div className="space-y-4">
             <div className="pb-3 border-b border-slate-800 flex items-center justify-between">
               <span className="text-2xs font-mono text-teal-400 font-bold uppercase tracking-wider">HAPI Quantum wave analytics</span>
-              <Activity className="w-4.5 h-4.5 text-teal-400 animate-pulse" />
+              <Activity className="w-4 h-4 text-teal-400 animate-pulse" />
             </div>
 
             {/* Neural status visualization */}

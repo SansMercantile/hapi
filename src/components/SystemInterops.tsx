@@ -174,7 +174,7 @@ export default function SystemInterops({ onAddLog }: SystemInteropsProps) {
       {/* Integration Benefits Overlay (Static Text Blocks) */}
       <div className="border border-slate-800/85 bg-[#050608] rounded-xl p-5 font-sans">
         <h3 className="text-xs font-mono uppercase tracking-widest text-[#2dd4bf] mb-4 flex items-center gap-2 font-bold">
-          <Database className="w-4.5 h-4.5 text-teal-400" />
+          <Database className="w-4 h-4 text-teal-400" />
           Intel Core Operational Benefits
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

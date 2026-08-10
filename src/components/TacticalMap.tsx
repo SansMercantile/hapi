@@ -399,7 +399,7 @@ export default function TacticalMap({
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-500">Load Factor:</span>
-                  <span className="text-slate-350">{selectedShipment.cargoLoad}% capacity</span>
+                  <span className="text-slate-400">{selectedShipment.cargoLoad}% capacity</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-500">Ship Velocity:</span>
