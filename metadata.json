@@ -2,5 +2,5 @@
   "name": "HAPI",
   "description": "Supply chain orchestration and logistics intelligence for the Sans Mercantile Constellation.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
