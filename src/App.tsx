@@ -6,6 +6,7 @@ import TacticalMap from './components/TacticalMap';
 import ForecastingPanel from './components/ForecastingPanel';
 import SystemInterops from './components/SystemInterops';
 import ContactHapi from './components/ContactHapi';
+import CorridorPanel from './components/CorridorPanel';
 import { Terminal, Shield, Cpu, RefreshCw, Layers, Sparkles, Building2, HelpCircle } from 'lucide-react';
 
 export default function App() {
@@ -325,13 +326,25 @@ export default function App() {
             <span className="text-3xs font-mono tracking-widest text-[#2dd4bf] uppercase bg-teal-950/40 px-2 py-0.5 rounded border border-teal-500/25 inline-block font-bold">
               SANS MERCANTILE LOGISTICAL NETWORK
             </span>
-            <h2 className="text-2xl font-display font-medium tracking-wide text-white">HAPI Operations Control</h2>
+            <h2 className="text-2xl font-display font-medium tracking-wide text-white">HAPI Logistics Intelligence</h2>
             <p className="text-sm text-slate-400 leading-relaxed font-sans">
-              Autonomous distribution, demand forecasting, and logistics coordination across infrastructure systems. 
-              HAPI enables intelligent transport planning, real-time asset tracking, and adaptive supply routing for critical resources and operational support. 
-              It connects material delivery to <strong className="text-teal-400 font-semibold font-mono">PTah</strong> infrastructure projects, mining logistics for <strong className="text-teal-400 font-semibold font-mono">Hathor</strong>, pure heavy water services for <strong className="text-teal-400 font-semibold font-mono">MAMI_WATA</strong>, and climate-sensitive shipments managed by <strong className="text-teal-400 font-semibold font-mono">SHANGO</strong>.
+              Real logistics-corridor intelligence for African trade. HAPI monitors live conditions at key ports and trade hubs and flags weather-driven disruption risk. Below is our live corridor feed; the orchestration sandbox further down is a concept simulation of the autonomous routing we're building toward (not a live fleet).
             </p>
           </div>
+        </section>
+
+        {/* LIVE: Real trade-corridor conditions (Open-Meteo) */}
+        <section className="space-y-4">
+          <div className="flex items-center gap-2 mb-2">
+            <Layers className="w-5 h-5 text-cyan-400" />
+            <h3 className="text-sm font-mono tracking-wider text-slate-400 uppercase">LIVE: REAL CORRIDOR CONDITIONS</h3>
+          </div>
+          <CorridorPanel />
+        </section>
+
+        {/* CONCEPT SIMULATION: orchestration sandbox (not a live fleet) */}
+        <section className="space-y-4 pt-2 border-t border-slate-800">
+          <p className="text-[11px] font-mono text-slate-500 uppercase tracking-wider pt-4">▼ Concept simulation (sandbox) — not a live fleet</p>
         </section>
 
         {/* Level 1 Grid: Map Viewer & side analysis terminal */}
