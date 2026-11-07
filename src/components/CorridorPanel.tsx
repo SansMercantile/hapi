@@ -27,7 +27,8 @@ export default function CorridorPanel() {
 
   useEffect(() => {
     let alive = true;
-    fetch("/api/v1/corridors")
+    const base = (import.meta as any).env?.VITE_API_BASE_URL || "";
+    fetch(`${base}/api/v1/corridors`)
       .then((r) => r.json().then((j) => ({ ok: r.ok, j })))
       .then(({ ok, j }) => {
         if (!alive) return;
